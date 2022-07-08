@@ -14,10 +14,31 @@ Version: 1.0
 body {
   font-family: "Noto Sans", sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
 a {
   text-decoration: none;
 }
+img {
+  max-width: 100%;
+}
+.section-padding-100 {
+  padding: 100px 0px;
+}
+.section-padding-100-50 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
 
+.bg-gray-custom {
+  color: #f5f8ff;
+}
 /*============ All Menu Css ==============*/
 .menu-area {
   background-color: black;
@@ -43,3 +64,66 @@ a {
   margin: 0 20px;
   color: #fff;
 }
+
+/* ===================Welcome area started ===================  */
+
+.welcome-area {
+  height: 100vh;
+  margin: 50px 0;
+}
+.welcome-content-text {
+  color: rgb(2, 2, 30);
+}
+
+.welcome-content-text h2 {
+  font-size: 46px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.welcome-content-text p {
+  font-size: 20px;
+}
+.welcome-content-text .button-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  gap: 20px;
+}
+.welcome-content-text .button-area a {
+  background-color: #405cf5;
+  color: #fff;
+  padding: 13px 35px;
+  line-height: 1.15;
+  border-radius: 6px;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+}
+.welcome-content-text .button-area :hover {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+.welcome-content-text .button-area a.custom-btn-2 {
+  background-color: transparent;
+  color: rgb(2, 2, 30);
+  padding: 13px 35px;
+  line-height: 1.15;
+  border: 1px solid #405cf5;
+  border-radius: 6px;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1p;
+}
+.welcome-content-text .button-area a.custom-btn-2:hover {
+  background-color: #405cf5;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+/* ===================Welcome area ends ===================  */
