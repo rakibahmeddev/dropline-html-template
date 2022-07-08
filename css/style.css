@@ -14,3 +14,32 @@ Version: 1.0
 body {
   font-family: "Noto Sans", sans-serif;
 }
+a {
+  text-decoration: none;
+}
+
+/*============ All Menu Css ==============*/
+.menu-area {
+  background-color: black;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-area .logo-area a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.menu-area ul.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.menu-area ul.navbar-nav .nav-link {
+  margin: 0 20px;
+  color: #fff;
+}
