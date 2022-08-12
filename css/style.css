@@ -37,12 +37,12 @@ img {
 }
 
 .bg-gray-custom {
-  color: #f5f8ff;
+  background-color: #f3f7fa;
 }
 /*============ All Menu Css ==============*/
 .menu-area {
-  background-color: black;
-  height: 70px;
+  background-color: #fff;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +50,7 @@ img {
 .menu-area .logo-area a {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: #02021e;
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -62,14 +62,37 @@ img {
 }
 .menu-area ul.navbar-nav .nav-link {
   margin: 0 20px;
+  color: #02021e;
+  font-weight: 600;
+}
+.menu-area ul li .last-item {
+  color: #fff !important;
+}
+.menu-area ul li:last-child {
+  background-color: #f84d60;
   color: #fff;
+  padding: 5px 15px;
+  line-height: 1.15;
+  border-radius: 6px;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.menu-area ul li:last-child:hover {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
 }
 
 /* ===================Welcome area started ===================  */
 
 .welcome-area {
-  height: 100vh;
-  margin: 50px 0;
+  padding: 80px 0;
 }
 .welcome-content-text {
   color: rgb(2, 2, 30);
@@ -91,7 +114,7 @@ img {
   gap: 20px;
 }
 .welcome-content-text .button-area a {
-  background-color: #405cf5;
+  background-color: #f84d60;
   color: #fff;
   padding: 13px 35px;
   line-height: 1.15;
@@ -100,6 +123,10 @@ img {
   transition: all 0.2s, box-shadow 0.08s ease-in;
   box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
     rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 .welcome-content-text .button-area :hover {
   box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
@@ -112,18 +139,30 @@ img {
   color: rgb(2, 2, 30);
   padding: 13px 35px;
   line-height: 1.15;
-  border: 1px solid #405cf5;
+  border: 1px solid #f84d60;
   border-radius: 6px;
   transform: translateZ(0);
   transition: all 0.2s, box-shadow 0.08s ease-in;
   box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
     rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1p;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 .welcome-content-text .button-area a.custom-btn-2:hover {
-  background-color: #405cf5;
+  background-color: #f84d60;
   color: #fff;
   box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
     rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
     rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+.welcome-thumb img {
+  width: 100%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 /* ===================Welcome area ends ===================  */
