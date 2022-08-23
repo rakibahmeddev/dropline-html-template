@@ -322,3 +322,62 @@ img {
   -o-border-radius: 15px;
 }
 /*=========== About us area ends  ===========*/
+
+/*=========== Features area starts ===========*/
+.features-area {
+  padding: 100px 0;
+  background-color: #f3f7fa;
+  font-size: 17px;
+}
+.single-features-area {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-bottom: 3px solid #f84d61be;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.single-features-area h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.single-features-area p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+.single-features-area.item-1 {
+  background-color: #1d4354;
+  color: #fff;
+}
+.single-features-area.item-1:hover {
+  background-color: #fff;
+  color: #27272a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.single-features-area.item-2 {
+  background-color: #1e6c85;
+  color: #fff;
+}
+.single-features-area.item-2:hover {
+  background-color: #fff;
+  color: #27272a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.single-features-area.item-3 {
+  background-color: #1f4690;
+  color: #fff;
+}
+.single-features-area.item-3:hover {
+  background-color: #fff;
+  color: #27272a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*=========== Features area ends ===========*/
